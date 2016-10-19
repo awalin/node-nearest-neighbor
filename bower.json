@@ -1,0 +1,28 @@
+{
+  "name": "nearest-neighbor",
+  "version": "0.0.3",
+  "main": "lib/nearest-neighbor.js"
+  ,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aschuch/node-nearest-neighbor.git"
+  },
+  "homepage": "https://github.com/aschuch/node-nearest-neighbor",
+  "authors": [
+    "Alexander Schuch (http://schuch.me)"
+  ],
+  "description": "Nearest neighbor algorithm to find the most similar object within an array of objects.",
+  "keywords": [
+    "nearest neighbor",
+    "k-nearest neighbor",
+    "similarity"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "should": "*"
+  }
+}
