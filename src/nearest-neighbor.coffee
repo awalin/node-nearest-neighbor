@@ -10,7 +10,7 @@
 # Calculates similarity of two records (a,b)
 # based on comparison fields
 #
-recordSimilarity = (a, b, fields) ->
+exports.recordSimilarity = (a, b, fields) ->
   sum = 0
   i = 0
   unmatchedFields = {} # all fields whose similarity is not exactly 1.0
